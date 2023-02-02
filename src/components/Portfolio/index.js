@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Toolbar from './Toolbar';
-import ProjectList from './ProjectList';
-import data from '../data';
+import Toolbar from '../Toolbar';
+import ProjectList from '../ProjectList';
+import data from '../../data';
+import './index.css';
 
 export default function Portfolio() {
     const [selected, setSelected] = useState('All');

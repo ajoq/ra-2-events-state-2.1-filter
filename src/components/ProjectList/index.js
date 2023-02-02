@@ -1,3 +1,5 @@
+import './index.css';
+
 export default function ProjectList({data}) {
     let id = 0;
 
