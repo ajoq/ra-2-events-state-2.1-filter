@@ -1,5 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ml244hcmm2erf9ku?svg=true)](https://ci.appveyor.com/project/ajoq/ra-2-events-state-2-1-filter)
-
 GH pages: https://ajoq.github.io/ra-2-events-state-2.1-filter/
 
 # Портфолио с фильтрами
