@@ -7,8 +7,8 @@ export default function ProjectList({ data }) {
     <div className="projects">
       <ul className="projects-list">
         {data.map((item) => (
-          <li className="projects-item" key={id + 1}>
-            <img src={item.img} alt="" />
+          <li className="projects-item" key={id++}>
+            <img src={item.img} alt={'Portfolio ' + item.category} />
           </li>
         ))}
       </ul>

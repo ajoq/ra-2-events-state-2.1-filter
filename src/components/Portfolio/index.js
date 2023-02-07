@@ -16,10 +16,9 @@ export default function Portfolio() {
       : setProjects(data.filter((item) => item.category === category));
   };
 
-  const handleSelectFilter = (evt) => {
-    const category = evt.target.innerText;
-    setSelected(category);
-    filterProjects(category);
+  const handleSelectFilter = (item) => {
+    setSelected(item);
+    filterProjects(item);
   };
 
   return (
